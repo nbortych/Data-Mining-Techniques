@@ -1,0 +1,12 @@
+digraph {
+	graph [rankdir=UT]
+	0 [label="f1<6.66666698"]
+	0 -> 1 [label="yes, missing" color="#0000FF"]
+	0 -> 2 [label=no color="#FF0000"]
+	1 [label="leaf=0.173519179"]
+	2 [label="f1<7.4124999"]
+	2 -> 3 [label="yes, missing" color="#0000FF"]
+	2 -> 4 [label=no color="#FF0000"]
+	3 [label="leaf=0.194819793"]
+	4 [label="leaf=0.215847179"]
+}
